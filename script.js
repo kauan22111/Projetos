@@ -5,15 +5,15 @@ function navegarPara(tela) {
     conteudo.innerHTML = '<div class="container-calculadora">' +
                           '<input type="text" class="entrada-calculadora" id="entrada-calc" readonly>' +
                           '<div class="botoes-calculadora">' +
-                            '<button class="btn btn-info" onclick="adicionarAoInput(\'7\')">9</button>' +
+                            '<button class="btn btn-info" onclick="adicionarAoInput(\'9\')">9</button>' +
                             '<button class="btn btn-info" onclick="adicionarAoInput(\'8\')">8</button>' +
-                            '<button class="btn btn-info" onclick="adicionarAoInput(\'9\')">7</button>' +
-                            '<button class="btn btn-info" onclick="adicionarAoInput(\'4\')">6</button>' +
+                            '<button class="btn btn-info" onclick="adicionarAoInput(\'7\')">7</button>' +
+                            '<button class="btn btn-info" onclick="adicionarAoInput(\'6\')">6</button>' +
                             '<button class="btn btn-info" onclick="adicionarAoInput(\'5\')">5</button>' +
-                            '<button class="btn btn-info" onclick="adicionarAoInput(\'6\')">4</button>' +
-                            '<button class="btn btn-info" onclick="adicionarAoInput(\'1\')">3</button>' +
+                            '<button class="btn btn-info" onclick="adicionarAoInput(\'4\')">4</button>' +
+                            '<button class="btn btn-info" onclick="adicionarAoInput(\'3\')">3</button>' +
                             '<button class="btn btn-info" onclick="adicionarAoInput(\'2\')">2</button>' +
-                            '<button class="btn btn-info" onclick="adicionarAoInput(\'3\')">1</button>' +
+                            '<button class="btn btn-info" onclick="adicionarAoInput(\'1\')">1</button>' +
                             '<button class="btn btn-info" onclick="adicionarAoInput(\'0\')">0</button>' +
                             '<button class="btn btn-dark" onclick="adicionarAoInput(\'+\')">+</button>' +
                             '<button class="btn btn-dark" onclick="adicionarAoInput(\'-\')">-</button>' +
